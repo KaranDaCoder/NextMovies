@@ -3,8 +3,8 @@
  height: fit-content;
  display: flex;
  flex-direction: column;
- justify-content: space-between;
- background-color: rgba(3, 3, 3, 0.793);
+ justify-content: space-evenly;
+ background-color: rgb(46, 5, 86);
  border-radius: 10px;
 
 }
@@ -20,6 +20,7 @@
 
 .title {
  text-align: center;
- font-size: 16px;
- font-weight: 300;
+ font-size: 18px;
+ font-weight: 400;
+ letter-spacing: 1.1px;
 }

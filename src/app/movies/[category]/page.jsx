@@ -30,7 +30,6 @@ const SidebarCategory = ({ params }) => {
 
  return (
   <div className={styles.sidebarMoviesContainer}>
-   <div className={styles.sortFilterPlaceholder}></div>
    <Sidebar
     {...params}
     handlegenre={(e) => handleGenres(e)}

@@ -4,14 +4,23 @@
  flex-direction: column;
  justify-content: flex-start;
  padding-left: 30px;
+ position: sticky;
+ height: 100px;
+ top: 0;
+
 }
 
+.icon {
+ font-size: 28px;
+ margin-left: 5px;
+}
 
 .filtersortContainer {
  display: flex;
- gap: 10px;
+ gap: 30px;
  justify-content: center;
  align-items: center;
+ margin-top: 50px;
 }
 
 .filtersortContainer>p {
@@ -29,18 +38,20 @@
 .title {
  display: flex;
  justify-content: center;
+ text-transform: uppercase;
  align-items: center;
  cursor: pointer;
- font-weight: 400;
- font-size: 20px;
- background-color: brown;
+ font-weight: 500;
+ font-size: 22px;
+ background-color: rgb(45, 7, 54);
  color: whitesmoke;
  border-radius: 10px;
+ letter-spacing: 1.1px;
 }
 
 .genresContainer {
  padding-bottom: 10px;
- margin-top: 25px;
+ margin-top: 50px;
  position: relative;
 }
 

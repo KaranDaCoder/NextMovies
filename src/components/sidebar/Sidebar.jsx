@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './page.module.css'
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const Sidebar = (props) => {
  return (
@@ -10,7 +11,7 @@ const Sidebar = (props) => {
    </div>
    <div className={styles.genresContainer}>
     <h2 className={styles.title} onClick={props.handlegenre_modal}>
-     Genres
+     Genres <KeyboardArrowDownIcon className={styles.icon} />
     </h2>
     {props.genresSortFilter.genre_modal && (
      <div className={styles.genreItems}>
@@ -39,7 +40,22 @@ const Sidebar = (props) => {
        Romance
       </p>
       <p className={styles.genreItem} onClick={props.handlegenre}>
-       Musical
+       War
+      </p>
+      <p className={styles.genreItem} onClick={props.handlegenre}>
+       Sport
+      </p>
+      <p className={styles.genreItem} onClick={props.handlegenre}>
+       Fantasy
+      </p>
+      <p className={styles.genreItem} onClick={props.handlegenre}>
+       Sci-Fi
+      </p>
+      <p className={styles.genreItem} onClick={props.handlegenre}>
+       Adventure
+      </p>
+      <p className={styles.genreItem} onClick={props.handlegenre}>
+       War
       </p>
      </div>
     )}
@@ -51,7 +67,7 @@ const Sidebar = (props) => {
       props.handlesort_modal(!props.genresSortFilter.sort_modal)
      }
     >
-     Sort
+     Sort <KeyboardArrowDownIcon />
     </h2>
     {props.genresSortFilter.sort_modal && (
      <div className={styles.genreItems}>

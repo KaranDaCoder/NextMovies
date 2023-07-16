@@ -6,11 +6,10 @@ const Card = (props) => {
  return (
   <div className={styles.cardContainer}>
    <div className={styles.images}>
-    <Image src={props.image_src} alt="" width={220} height={300} className={styles.image} priority={true} />
+    <Image src={props.image_src} alt="" width={220} height={250} className={styles.image} priority={true} />
    </div>
    <div className={styles.cardContent}>
     <p className={styles.title}>{props.title}</p>
-    <p>{props.imdbRating}</p>
    </div>
   </div>
  )
