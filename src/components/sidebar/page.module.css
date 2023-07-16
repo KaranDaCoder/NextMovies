@@ -1,0 +1,63 @@
+.sidebarContainer {
+ display: flex;
+ flex: 2;
+ flex-direction: column;
+ justify-content: flex-start;
+ padding-left: 30px;
+}
+
+
+.filtersortContainer {
+ display: flex;
+ gap: 10px;
+ justify-content: center;
+ align-items: center;
+}
+
+.filtersortContainer>p {
+ width: fit-content;
+ padding: 5px 15px;
+ display: flex;
+ background-color: rgb(62, 0, 128);
+ color: white;
+ border-radius: 5px;
+ font-size: 16px;
+ font-weight: 500;
+ text-align: center;
+}
+
+.title {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ font-weight: 400;
+ font-size: 20px;
+ background-color: brown;
+ color: whitesmoke;
+ border-radius: 10px;
+}
+
+.genresContainer {
+ padding-bottom: 10px;
+ margin-top: 25px;
+ position: relative;
+}
+
+.genreItems {
+ display: flex;
+ gap: 5px;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ padding: 0 5px;
+ margin-top: 10px;
+}
+
+.genreItem {
+ padding: 5px 10px;
+ border: 1px solid rgb(194, 180, 180);
+ border-radius: 10px;
+ font-size: 14px;
+ margin: 5px 0;
+ cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.sidebarMoviesContainer {
+ display: flex;
+ height: 100dvh;
+ margin: 15px 0;
+ gap: 10px;
+ overflow-y: scroll;
+
+
+}

@@ -1,0 +1,30 @@
+.navbarContainer {
+ /* height: 100px; */
+ min-height: 60px;
+ background-color: rgba(28, 28, 47, 0.884);
+ color: rgb(213, 209, 209);
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 30px;
+ letter-spacing: 1.5px;
+}
+
+.linkItems {
+ display: flex;
+ align-items: center;
+ gap: 30px;
+}
+
+.title {
+ font-size: 28px;
+ font-weight: 600;
+ text-transform: capitalize;
+}
+
+.linkItem {
+ text-transform: capitalize;
+ font-size: 20px;
+ font-weight: 400;
+
+}

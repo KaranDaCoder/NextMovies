@@ -1,0 +1,25 @@
+.cardContainer {
+ width: 220px;
+ height: fit-content;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ background-color: rgba(3, 3, 3, 0.793);
+ border-radius: 10px;
+
+}
+
+.cardContent {
+ color: white;
+}
+
+.image {
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+}
+
+.title {
+ text-align: center;
+ font-size: 16px;
+ font-weight: 300;
+}
