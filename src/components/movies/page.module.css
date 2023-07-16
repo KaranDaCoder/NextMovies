@@ -1,8 +1,9 @@
 .moviesContainer {
  display: flex;
  justify-content: center;
- flex: 14;
+ flex: 20;
  flex-wrap: wrap;
  gap: 10px;
+ margin-top: 10px;
  /* padding: 0 0 0 10px; */
 }

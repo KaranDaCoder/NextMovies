@@ -1,9 +1,9 @@
 .sidebarContainer {
  display: flex;
- flex: 2;
+ flex: 3;
  flex-direction: column;
  justify-content: flex-start;
- padding-left: 30px;
+ padding-left: 25px;
  position: sticky;
  height: 100px;
  top: 0;
@@ -17,21 +17,22 @@
 
 .filtersortContainer {
  display: flex;
- gap: 30px;
+ gap: 10px;
  justify-content: center;
  align-items: center;
- margin-top: 50px;
+ margin-top: 10px;
+
 }
 
 .filtersortContainer>p {
  width: fit-content;
  padding: 5px 15px;
  display: flex;
- background-color: rgb(62, 0, 128);
+ background-color: rgb(6, 87, 36);
  color: white;
  border-radius: 5px;
- font-size: 16px;
- font-weight: 500;
+ font-size: 18px;
+ font-weight: 400;
  text-align: center;
 }
 
@@ -50,25 +51,25 @@
 }
 
 .genresContainer {
- padding-bottom: 10px;
  margin-top: 50px;
  position: relative;
+
 }
 
 .genreItems {
  display: flex;
- gap: 5px;
+ gap: 3px;
  flex-wrap: wrap;
  justify-content: flex-start;
- padding: 0 5px;
- margin-top: 10px;
+ margin-top: 5px;
 }
 
 .genreItem {
  padding: 5px 10px;
- border: 1px solid rgb(194, 180, 180);
+ border: 2px solid rgb(194, 180, 180);
  border-radius: 10px;
- font-size: 14px;
- margin: 5px 0;
+ font-size: 16px;
+ margin: 2px 0;
+ font-weight: 500;
  cursor: pointer;
 }

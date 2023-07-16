@@ -63,11 +63,12 @@ const Sidebar = (props) => {
    <div className={styles.genresContainer}>
     <h2
      className={styles.title}
-     onClick={() =>
-      props.handlesort_modal(!props.genresSortFilter.sort_modal)
+     onClick={
+      props.handlesort_modal
      }
+    //onClick={props.handlegenre_modal}
     >
-     Sort <KeyboardArrowDownIcon />
+     Sort <KeyboardArrowDownIcon className={styles.icon} />
     </h2>
     {props.genresSortFilter.sort_modal && (
      <div className={styles.genreItems}>

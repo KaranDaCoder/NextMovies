@@ -1,12 +1,13 @@
 .navbarContainer {
- min-height: 80px;
- background-color: rgb(46, 5, 86);
- color: whitesmoke;
+ min-height: fit-content;
+ /* background-color: rgb(46, 5, 86); */
+ color: black;
  display: flex;
  align-items: center;
  justify-content: space-between;
  padding: 0 30px;
  letter-spacing: 1.5px;
+ border-bottom: 2px solid rgb(215, 210, 210);
 }
 
 .linkItems {
@@ -19,6 +20,7 @@
  font-size: 30px;
  font-weight: 600;
  text-transform: capitalize;
+ color: rgb(33, 66, 4);
 }
 
 .linkItem {
