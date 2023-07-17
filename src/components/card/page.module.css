@@ -5,12 +5,18 @@
  flex-direction: column;
  justify-content: space-evenly;
  background-color: rgb(33, 66, 4);
- border-radius: 10px;
+ /* border-radius: 10px; */
 }
 
 .image {
- border-top-left-radius: 10px;
- border-top-right-radius: 10px;
+ /* border-top-left-radius: 10px;
+ border-top-right-radius: 10px; */
+ transition: all 0.5s ease;
+}
+
+.image:hover {
+ opacity: 0.8;
+ transform: scale(0.99);
 }
 
 .title {
